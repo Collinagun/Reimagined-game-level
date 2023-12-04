@@ -1,0 +1,54 @@
+{
+    "name": "Actions",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "3583bdc6-ec40-461d-ba82-4ef7c66d4b99",
+            "actions": [
+                {
+                    "name": "PointerPosition",
+                    "type": "Value",
+                    "id": "eabcb223-687b-4fd9-95a7-98c71e268d91",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "b23a5b26-5dbe-4262-acc7-468a34884557",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ca1f269f-85a9-4482-8f22-d1efd0bbc093",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "173f4cee-c689-4b4d-8f08-a19302a26ec3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
